@@ -7,3 +7,4 @@ add_clang_library(clangdRemoteMarshalling
   protobuf
   clangDaemon
   )
+add_dependencies(clangdRemoteMarshalling RemoteIndexProtos)

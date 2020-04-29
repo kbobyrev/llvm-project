@@ -14,3 +14,4 @@ target_link_libraries(clangd-index-server
 
   grpc++
   )
+add_dependencies(clangd-index-server RemoteIndexProtos)
